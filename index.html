@@ -21,104 +21,94 @@
 </head>
 
 <body>
-
-    <!-- preloader -->
-    <div class="preloader">
-        <div class="loader">
-            <div class="loader-box-1"></div>
-            <div class="loader-box-2"></div>
+<!-- Header Top (se muestra en PC y móvil) -->
+<div class="header-top">
+    <div class="container-fluid px-lg-5">
+        <div class="header-top-wrapper">
+            <div class="header-top-left">
+                <div class="header-top-contact">
+                    <ul>
+                        <li><a href="#"><i class="far fa-map-marker-alt"></i><span class="contact-text">Huixtla, Chiapas</span></a></li>
+                        <li><a href="mailto:laesquinapizzas@laesquinapizzerias.com"><i class="far fa-envelope"></i><span class="contact-text">Correo</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-top-right">
+                <div class="header-top-social">
+                    <a href="https://www.facebook.com/LaEsquinapizzaa"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/laesquinapizzas_/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </div>
+                <div class="header-lang d-none d-md-block">
+                    <ul>
+                        <li class="active"><a href="/index.html">ES</a></li>
+                        <li><a href="/US/index.html">EN</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- preloader end -->
+</div>
 
-
-    <!-- header area -->
-    <header class="header">
-
-        <!-- header top -->
-        <div class="header-top">
-            <div class="container-fluid px-lg-5">
-                <div class="header-top-wrapper">
-                    <div class="header-top-left">
-                        <div class="header-top-contact">
-                            <ul>
-                                <li><a href="#"><i class="far fa-map-marker-alt"></i>Huixtla, Chiapas, México</a></li>
-                                <li>
-  <a href="mailto:laesquinapizzas@laesquinapizzerias.com">
-    <i class="far fa-envelope"></i> Correo
-  </a>
-</li>
-
-                             
-                            </ul>
+<!-- Navbar Principal -->
+<div class="main-navigation">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-lg-5">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo/logo.svg" alt="logo" class="img-fluid">
+            </a>
+            
+            <!-- Botón Hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#main_nav" aria-controls="main_nav" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="far fa-bars"></i></span>
+            </button>
+            
+            <!-- Menú Colapsable -->
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MX/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MX/preguntas.html">Preguntas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MX/contactanos.html">Contáctanos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Legales</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="MX/privacidad.html">Privacidad</a></li>
+                            <li><a class="dropdown-item" href="MX/terminos.html">Términos</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Selector de idioma para móvil -->
+                    <li class="nav-item d-lg-none mobile-lang-item">
+                        <div class="mobile-lang-selector">
+                            <a class="nav-link lang-link active" href="/index.html">ES</a>
+                            <a class="nav-link lang-link" href="/US/index.html">EN</a>
                         </div>
-                    </div>
-                    <div class="header-top-right">
-                        <div class="header-top-social"><a href="https://www.facebook.com/LaEsquinapizzaa"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/laesquinapizzas_/"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-x-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="https://www.instagram.com/ugo_sliders/"><i class="fab fa-whatsapp"></i></a></div>
-                        <div class="header-lang"><ul><li class="active"><a href="/index.html">ES</a></li><li><a href="/US/index.html">EN</a></li></ul></div>
+                    </li>
+                </ul>
+                
+                <!-- Botón WhatsApp -->
+                <div class="header-nav-right">
+                    <div class="header-btn">
+                        <a href="https://wa.me/529624719341" class="border-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Whatsapp
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- header top end -->
-
-
-      <!-- navbar -->
-<div class="main-navigation">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid px-lg-5">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo/logo.svg" alt="logo">
-      </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="far fa-bars"></i></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="main_nav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Inicio</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="MX/menu.html">Menú</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="MX/nosotros.html">Nosotros</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="MX/preguntas.html">Preguntas</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="MX/contactanos.html">Contáctanos</a>
-          </li>
-
-          <!-- Dropdown compacto para legales (opcional en navbar) -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Legales</a>
-            <ul class="dropdown-menu fade-up">
-              <li><a class="dropdown-item" href="MX/privacidad.html">Privacidad</a></li>
-              <li><a class="dropdown-item" href="MX/terminos.html">Términos y Condiciones</a></li>
-            </ul>
-          </li>
-        </ul>
-
-        <div class="header-nav-right">
-          <div class="header-btn">
-            <a href="#" class="border-btn">Reservar Mesa</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
+    </nav>
 </div>
-<!-- navbar end -->
-
     </header>
     <!-- header area end -->
 
@@ -142,7 +132,7 @@
                                 <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
                                     <a href="#" class="theme-btn">Check Menú<i
                                             class="far fa-arrow-right"></i></a>
-                                    <a href="MX/nosotros.html" class="border-btn">Reservar Mesa<i
+                                    <a href="MX/nosotros.html" class="border-btn">Whatsapp<i
                                             class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -165,7 +155,7 @@
                                 <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
                                     <a href="#" class="theme-btn">Check Menú<i
                                             class="far fa-arrow-right"></i></a>
-                                    <a href="MX/nosotros.html" class="border-btn">Reservar Mesa<i
+                                    <a href="MX/nosotros.html" class="border-btn">Whatsapp<i
                                             class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -188,7 +178,7 @@
                                 <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
                                     <a href="#" class="theme-btn">Check Menú<i
                                             class="far fa-arrow-right"></i></a>
-                                    <a href="MX/nosotros.html" class="border-btn">Reservar Mesa<i
+                                    <a href="MX/nosotros.html" class="border-btn">Whatsapp<i
                                             class="far fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -230,101 +220,7 @@
         <!-- about area end -->
 
  
-        <!-- menu area -->
-        <div class="menu-area pb-120 pt-20">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                            <span class="site-title-tagline">Our Menú</span>
-                            <h2 class="site-title">Let's <span>Check</span> Our Menú</h2>
-                            <p>
-                                Dos propuestas en un mismo lugar: <strong>La Esquina Pizza</strong> y <strong>Ugo Sliders</strong>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-wrapper wow fadeInUp" data-wow-delay=".25s">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="menu-item">
-                                <div class="menu-item-img">
-                                    <img src="assets/img/menu/sm-1.jpg" alt="">
-                                </div>
-                               <div class="menu-content"><a href="#"><h5 class="menu-title">Pizza Pepperoni</h5></a><p>Parte de nuestro menú de La Esquina Pizza y Ugo Sliders.</p></div>
-                               <div class="menu-price"><span>—</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="menu-item">
-                                <div class="menu-item-img">
-                                    <img src="assets/img/menu/sm-2.jpg" alt="">
-                                </div>
-                               <div class="menu-content"><a href="#"><h5 class="menu-title">Pizza Hawaiana</h5></a><p>Parte de nuestro menú de La Esquina Pizza y Ugo Sliders.</p></div>
-                               <div class="menu-price"><span>—</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="menu-item">
-                                <div class="menu-item-img">
-                                    <img src="assets/img/menu/sm-3.jpg" alt="">
-                                </div>
-                               <div class="menu-content"><a href="#"><h5 class="menu-title">Pizza Cuatro Quesos</h5></a><p>Parte de nuestro menú de La Esquina Pizza y Ugo Sliders.</p></div>
-                               <div class="menu-price"><span>—</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="menu-item">
-                                <div class="menu-item-img">
-                                    <img src="assets/img/menu/sm-4.jpg" alt="">
-                                </div>
-                               <div class="menu-content"><a href="#"><h5 class="menu-title">Smash Burger Clásica</h5></a><p>Parte de nuestro menú de La Esquina Pizza y Ugo Sliders.</p></div>
-                               <div class="menu-price"><span>—</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="menu-item">
-                                <div class="menu-item-img">
-                                    <img src="assets/img/menu/sm-5.jpg" alt="">
-                                </div>
-                               <div class="menu-content"><a href="#"><h5 class="menu-title">Smash Burger Doble Angus</h5></a><p>Parte de nuestro menú de La Esquina Pizza y Ugo Sliders.</p></div>
-                               <div class="menu-price"><span>—</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="menu-item">
-                                <div class="menu-item-img">
-                                    <img src="assets/img/menu/sm-6.jpg" alt="">
-                                </div>
-                               <div class="menu-content"><a href="#"><h5 class="menu-title">Papas a la Francesa</h5></a><p>Parte de nuestro menú de La Esquina Pizza y Ugo Sliders.</p></div>
-                               <div class="menu-price"><span>—</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="menu-item">
-                                <div class="menu-item-img">
-                                    <img src="assets/img/menu/sm-7.jpg" alt="">
-                                </div>
-                               <div class="menu-content"><a href="#"><h5 class="menu-title">Malteada de Vainilla</h5></a><p>Parte de nuestro menú de La Esquina Pizza y Ugo Sliders.</p></div>
-                               <div class="menu-price"><span>—</span></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="menu-item">
-                                <div class="menu-item-img">
-                                    <img src="assets/img/menu/sm-8.jpg" alt="">
-                                </div>
-                               <div class="menu-content"><a href="#"><h5 class="menu-title">Combo Pizza + Sliders</h5></a><p>Parte de nuestro menú de La Esquina Pizza y Ugo Sliders.</p></div>
-                               <div class="menu-price"><span>—</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- menu area end -->
-
-
+       
         <!-- why choose -->
         <div class="choose-area bg pt-120 pb-20">
             <div class="container">
@@ -473,100 +369,6 @@
         </div>
         <!-- special offer end -->
 
-
-        <!-- chef-area -->
-        <div class="team-area py-120">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                            <span class="site-title-tagline">Nuestro Equipo</span>
-                            <h2 class="site-title">Conoce a nuestro <span>equipo</span></h2>
-                            <p>
-                                Dos propuestas en un mismo lugar: <strong>La Esquina Pizza</strong> y <strong>Ugo Sliders</strong>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row wow fadeInUp" data-wow-delay=".25s">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="team-item">
-                            <img src="assets/img/chef/01.jpg" alt="thumb">
-                            <div class="team-content">
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                </div>
-                                <div class="team-bio">
-                                    <h5><a href="#">George Hooks</a></h5>
-                                    <span>Equipo de cocina</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="team-item">
-                            <img src="assets/img/chef/02.jpg" alt="thumb">
-                            <div class="team-content">
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                </div>
-                                <div class="team-bio">
-                                    <h5><a href="#">Veron Reyn</a></h5>
-                                    <span>Equipo de cocina</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="team-item active">
-                            <img src="assets/img/chef/03.jpg" alt="thumb">
-                            <div class="team-content">
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                </div>
-                                <div class="team-bio">
-                                    <h5><a href="#">Karl Hart</a></h5>
-                                    <span>Equipo de cocina</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="team-item">
-                            <img src="assets/img/chef/04.jpg" alt="thumb">
-                            <div class="team-content">
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                </div>
-                                <div class="team-bio">
-                                    <h5><a href="#">Adam Coon</a></h5>
-                                    <span>Equipo de cocina</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- chef-area end -->
 
 
       <!-- video area -->
@@ -1028,6 +830,46 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 <!-- blog-area end -->
 
+<!-- team-area -->
+<div class="team-area py-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
+                    <span class="site-title-tagline">Nuestro Fundador</span>
+                    <h2 class="site-title">Conoce a <span>nuestro líder</span></h2>
+                    <p>
+                        Dos propuestas en un mismo lugar: <strong>La Esquina Pizza</strong> y <strong>Ugo Sliders</strong>.
+                        Bajo la visión de nuestro fundador.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center wow fadeInUp" data-wow-delay=".25s">
+            <div class="col-md-6 col-lg-3">
+                <div class="team-item active">
+                    <img src="assets/img/chef/03.jpg" alt="Foto de Gadiel Mejía">
+                    <div class="team-content">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="team-bio">
+                            <h5><a href="#">Gadiel Mejía</a></h5>
+                            <span>Fundador & CEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- team-area end -->
+
 
         <!-- partner area -->
         <div class="partner-area">
@@ -1078,7 +920,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <li><a href="MX/preguntas.html">- Preguntas</a></li>
               <li><a href="MX/terminos.html">- Términos y Condiciones</a></li>
               <li><a href="MX/privacidad.html">- Privacidad</a></li>
-              <li><a href="MX/menu.html">- Menú</a></li>
+          
             </ul>
           </div>
         </div>
@@ -1093,7 +935,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 <li><span class="day">Dom</span><span class="time">1:00 PM - 10:00 PM</span></li>
               </ul>
             </div>
-            <a href="#" class="border-btn">Reservar Mesa</a>
+        
+        <a href="https://wa.me/529624719341?text=Hola%20quiero%20reservar%20una%20mesa"
+           class="border-btn"
+           target="_blank">
+           Whatsapp
+        </a>
+   
           </div>
         </div>
 

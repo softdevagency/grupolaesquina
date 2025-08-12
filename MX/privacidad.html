@@ -27,84 +27,96 @@
 
 <body>
 
-    <!-- preloader -->
-    <div class="preloader">
-        <div class="loader">
-            <div class="loader-box-1"></div>
-            <div class="loader-box-2"></div>
+  <!-- Header Top (se muestra en PC y móvil) -->
+<div class="header-top">
+    <div class="container-fluid px-lg-5">
+        <div class="header-top-wrapper">
+            <div class="header-top-left">
+                <div class="header-top-contact">
+                    <ul>
+                        <li><a href="#"><i class="far fa-map-marker-alt"></i><span class="contact-text">Huixtla, Chiapas</span></a></li>
+                        <li><a href="mailto:laesquinapizzas@laesquinapizzerias.com"><i class="far fa-envelope"></i><span class="contact-text">Correo</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-top-right">
+                <div class="header-top-social">
+                    <a href="https://www.facebook.com/LaEsquinapizzaa"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/laesquinapizzas_/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </div>
+                <div class="header-lang d-none d-md-block">
+                    <ul>
+                        <li class="active"><a href="/index.html">ES</a></li>
+                        <li><a href="/US/privacy.html">EN</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- preloader end -->
+</div>
 
-
-    <!-- header area -->
-    <header class="header">
-
-        <!-- header top -->
-        <div class="header-top">
-            <div class="container-fluid px-lg-5">
-                <div class="header-top-wrapper">
-                    <div class="header-top-left">
-                        <div class="header-top-contact">
-                            <ul>
-                                <li><a href="#"><i class="far fa-map-marker-alt"></i>Huixtla, Chiapas, México</a></li>
-                               <li>
-  <a href="mailto:laesquinapizzas@laesquinapizzerias.com">
-    <i class="far fa-envelope"></i> Correo
-  </a>
-</li>
-
-                              
-                            </ul>
+<!-- Navbar Principal -->
+<div class="main-navigation">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-lg-5">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/img/logo/logo.svg" alt="logo" class="img-fluid">
+            </a>
+            
+            <!-- Botón Hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#main_nav" aria-controls="main_nav" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="far fa-bars"></i></span>
+            </button>
+            
+            <!-- Menú Colapsable -->
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/MX/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/MX/preguntas.html">Preguntas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="/MX/contactanos.html">Contáctanos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Legales</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/MX/privacidad.html">Privacidad</a></li>
+                            <li><a class="dropdown-item" href="/MX/terminos.html">Términos</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Selector de idioma para móvil -->
+                    <li class="nav-item d-lg-none mobile-lang-item">
+                        <div class="mobile-lang-selector">
+                            <a class="nav-link lang-link active" href="/index.html">ES</a>
+                            <a class="nav-link lang-link" href="/US/privacy.html">EN</a>
                         </div>
-                    </div>
-                    <div class="header-top-right">
-                        <div class="header-top-social"><a href="https://www.facebook.com/LaEsquinapizzaa"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/laesquinapizzas_/"><i class="fab fa-instagram"></i></a><a href="https://www.instagram.com/ugo_sliders/"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-x-twitter"></i></a></div>
-                        <div class="header-lang"><ul><li class="active"><a href="/MX/privacidad.html">ES</a></li><li><a href="/US/privacy.html">EN</a></li></ul></div>
+                    </li>
+                </ul>
+                
+                <!-- Botón WhatsApp -->
+                <div class="header-nav-right">
+                    <div class="header-btn">
+                        <a href="https://wa.me/529624719341" class="border-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Whatsapp
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- header top end -->
-
-        
-        <!-- navbar -->
-        <div class="main-navigation">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid px-lg-5">
-                    <a class="navbar-brand" href="/index.html">
-                        <img src="/assets/img/logo/logo.svg" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i class="far fa-bars"></i></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="main_nav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
-                            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                            <li class="nav-item"><a class="nav-link" href="preguntas.html">Preguntas</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contactanos.html">Contáctanos</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Legales</a>
-                                <ul class="dropdown-menu fade-up">
-                                    <li><a class="dropdown-item" href="privacidad.html">Privacidad</a></li>
-                                    <li><a class="dropdown-item" href="terminos.html">Términos y Condiciones</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="header-nav-right">
-                            <div class="header-btn">
-                                <a href="#" class="border-btn">Reservar Mesa</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- navbar end -->
-
+    </nav>
+</div>
+    </header>
+    <!-- header area end -->
 
     </header>
     <!-- header area end -->
@@ -221,11 +233,11 @@
           <div class="footer-widget-box list">
             <h4 class="footer-widget-title">Enlaces</h4>
             <ul class="footer-list">
-              <li><a href="/MX/nosotros.html">- Nosotros</a></li>
-              <li><a href="/MX/preguntas.html">- Preguntas</a></li>
-              <li><a href="/MX/terminos.html">- Términos y Condiciones</a></li>
-              <li><a href="/MX/privacidad.html">- Privacidad</a></li>
-              <li><a href="/MX/menu.html">- Menú</a></li>
+              <li><a href="/MX/nosotros.html">Nosotros</a></li>
+              <li><a href="/MX/preguntas.html">Preguntas</a></li>
+              <li><a href="/MX/terminos.html">Términos</a></li>
+              <li><a href="/MX/privacidad.html">-Privacidad</a></li>
+   
             </ul>
           </div>
         </div>
@@ -240,7 +252,11 @@
                 <li><span class="day">Dom</span><span class="time">1:00 PM - 10:00 PM</span></li>
               </ul>
             </div>
-            <a href="#" class="border-btn">Reservar Mesa</a>
+      <a href="https://wa.me/529624719341?text=Hola%20quiero%20reservar%20una%20mesa"
+           class="border-btn"
+           target="_blank">
+           Whatsapp
+        </a>
           </div>
         </div>
 
@@ -325,7 +341,7 @@
         <div class="col-lg-6 align-self-center">
           <ul class="footer-menu">
             <li><a href="/MX/contactanos.html">Soporte</a></li>
-            <li><a href="/MX/terminos.html">Términos y Condiciones</a></li>
+            <li><a href="/MX/terminos.html">Términos</a></li>
             <li><a href="/MX/privacidad.html">Privacidad</a></li>
           </ul>
         </div>
